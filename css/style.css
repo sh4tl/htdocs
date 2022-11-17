@@ -1,0 +1,12 @@
+.card-body
+{
+	width:32%;
+	margin-left: 1%;
+}
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+body.dark-theme a {
+  color: #f8f8ff;
+}

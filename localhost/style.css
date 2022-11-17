@@ -1,0 +1,69 @@
+﻿* {
+	font-family: 'PT Sans', Arial, sans-serif;
+}
+body {
+	margin: 0;
+	background: url(2.jpg) no-repeat;
+	background-size: cover;
+}
+div.container {
+	display: flex;
+	justify-content: center;
+}
+form {
+	margin-top: 0vh;
+	background: url(1.jpg) center;
+	background-size: contain;
+	padding: 50px 45px;
+	width: 300px;
+	box-shadow: 0 0 100px rgba(255,255,255,0.7);
+}
+span {
+	color: #fff;
+	font-size: 25px;
+}
+#underline {
+	width: 50px;
+	height: 2px;
+	background-color: #127bf4;
+}
+label {
+	margin-left: 15px;
+	font-size: 14px;
+	color: #FFF;
+	cursor: pointer;
+}
+input {
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+input, button {
+	border-radius: 100px;
+	padding: 10px 20px;
+	outline: none;
+	border: none;
+}
+input, label {opacity: 1}
+input {width: calc(100% - 20px * 2)}
+button {
+	background-color: #127bf4;
+	width: 100%;
+	color: #FFF;
+	cursor: pointer;
+}
+.product {
+	margin: 10px 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 15px;
+	background-color:  white;
+}
+.title {
+	color: #000;
+	font-size: 20px;
+}
+.amount {
+	background-color: #909090;
+	width: 70px;
+}
